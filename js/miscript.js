@@ -1,3 +1,9 @@
+console.log('sweet alert');
+
+
+
+
+
 mostrar()
 let carrito=[] 
 
@@ -7,10 +13,15 @@ console.log(btn_agregar)
 
 for(let i = 0; i < btn_agregar.length; i++){
  
-
     btn_agregar[i].addEventListener('click', agregar_carrito)
     function agregar_carrito(e) {
- 
+       
+            Toastify({
+                text: "Agregaste un producto al carrito",
+                duration: 1200,
+                position: 'right'
+            }).showToast()
+
         let producto = e.target.dataset.producto
 
         let = precio = parseInt(e.target.dataset.precio)
@@ -123,6 +134,26 @@ decremento.addEventListener('click', (e) => {
 function eliminarDelCarrito(producto){
     let carrito = JSON.parse(localStorage.getItem('producto'))
     let total = 0
+
+
+    Swal.fire({
+        title: 'Advertencia!',
+        text: "se va a eliminar un producto de tu carrito!",
+        icon: 'warning',
+        showCancelButton: false,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Continuar!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            'Eliminado!',
+            'tu producto ha sido borrado.',
+            'success'
+          )
+        }
+      })
+
 
     if(carrito.length == 0){
         total = 0;
