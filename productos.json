@@ -83,6 +83,11 @@
         "title": "GANCIA",
         "price": 1200,
         "img": "img/GANCIA.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 12200,
+        "img": "img/GANCIA.png"
     }
     
 ]
