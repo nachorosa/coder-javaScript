@@ -5,6 +5,7 @@ function dataFetch(){
     console.log('asd')
     let fetchDatos = async () =>{
         
+        
         let panel = document.getElementById('fetch_productos')
         panel.innerHTML = ''
     
