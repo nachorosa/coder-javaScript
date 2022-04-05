@@ -1,0 +1,88 @@
+[
+    {
+        "title": "FERNET branca",
+        "price": 100,
+        "img": "img/fernet.jpg"
+    },
+    {
+        "title": "COCA COLA",
+        "price": 460,
+        "img": "img/COCA.png"
+    },
+    {
+        "title": "PEPSI",
+        "price": 100,
+        "img": "img/pepsi.jpg"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    },
+    {
+        "title": "SPRITE",
+        "price": 800,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 1200,
+        "img": "img/GANCIA.png"
+    }
+    
+]

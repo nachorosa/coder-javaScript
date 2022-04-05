@@ -1,7 +1,38 @@
 console.log('sweet alert');
 
 
-
+function dataFetch(){
+    console.log('asd')
+    let fetchDatos = async () =>{
+        
+        let panel = document.getElementById('fetch_productos')
+        panel.innerHTML = ''
+    
+        
+        try {
+            let res = await fetch('productos.json')
+            let data = await res.json()
+            data.forEach((producto) => {
+                panel.innerHTML +=`
+                
+                <div class="producto col-md-2">
+                <img src="${producto.img}" alt="">
+                <p class="nombre_producto">${producto.title}</p>
+                <p class="precio_producto"><span>$</span>${producto.price}</p>
+                <button data-producto="${producto.title}" data-precio="${producto.price}" data-img="${producto.img}" class="agregar_al_carrito btn btn-primary">AGREGAR AL
+                    CARRITO</button>
+            </div>`
+                
+            });
+    
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    
+    fetchDatos()
+}
+dataFetch()
 
 
 mostrar()
@@ -28,7 +59,7 @@ for(let i = 0; i < btn_agregar.length; i++){
 
         let img = e.target.dataset.img
 
-       //TODO:  
+  
         class Objeto_producto{
             constructor(producto, precio, img){
                 this.producto = producto
@@ -37,7 +68,7 @@ for(let i = 0; i < btn_agregar.length; i++){
             }
         }
 
-        //FIXME:
+    
 
         let nuevoProducto = new Objeto_producto(producto, precio, img)
 
