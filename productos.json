@@ -1,0 +1,28 @@
+[
+    {
+        "title": "FERNET",
+        "price": 1200,
+        "img": "img/fernet.jpg"
+    },
+    {
+        "title": "COCA COLA",
+        "price": 460,
+        "img": "img/COCA.png"
+    },
+    {
+        "title": "PEPSI",
+        "price": 430,
+        "img": "img/pepsi.jpg"
+    },
+    {
+        "title": "SPRITE",
+        "price": 420,
+        "img": "img/SPRITE.png"
+    },
+    {
+        "title": "GANCIA",
+        "price": 920,
+        "img": "img/GANCIA.png"
+    }
+    
+]
